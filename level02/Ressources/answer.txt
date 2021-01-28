@@ -1,0 +1,4 @@
+ouvrir le fichier level02.pcap
+ensuite cliquer sur suivre le flux tcp
+afficher les chiffres en hexadecimal et trouver le mot de passe
+"ft_waNDReL0L"

@@ -1,0 +1,1 @@
+il faut rajouter dans le path un chemin vers un programme s'appelant echo contanant la fonction getflag. Le programme level03 ayant les droits de flag03

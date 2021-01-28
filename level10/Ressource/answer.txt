@@ -1,0 +1,6 @@
+ce niveau ce sert de Time-of-check to time-of-use TOCTOU
+https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use
+
+il faut donc executer le script1 et le script2 et de lancer la commande
+ nc -l 6969
+jusqu'a obtenir le token

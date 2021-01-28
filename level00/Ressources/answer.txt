@@ -1,0 +1,5 @@
+find / -group flag00 2>/dev/null
+cat /rofs/usr/sbin/john
+il faut ensuite aller sur https://www.dcode.fr/chiffre-cesar
+et dechiffrer le code en rot 15
+ce aui nous donne 'nottoohardhere'

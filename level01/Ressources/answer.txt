@@ -1,0 +1,4 @@
+il faut utiliser la commande cat /etc/passwd
+ensuite on recupere le mot de passe inscrit sur la ligne flag01
+et on le passe dans le programme john ce qui nous donne "abcdefg"
+

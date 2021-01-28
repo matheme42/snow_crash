@@ -1,0 +1,1 @@
+il faut rajouter un programme dans le dossier /opt/openarenaserver pour qu'il soit executer par le crontab en tant que flag05
