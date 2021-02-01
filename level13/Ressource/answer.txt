@@ -1,0 +1,16 @@
+Nous allons modifier la fonction getuid qu'utilise le programme level13.
+on va creer un fichier getuid.c
+----
+#include <unistd.h>
+uid_t getuid(void) { return 4242; }
+
+----
+Et le compiler a l'aide de
+gcc -fPIC -shared -o linux-gate.so.1 /tmp/getuid.c
+
+ensuite on peut changer la variable LD_PRELOAD env.
+
+export LD_PRELOAD="/tmp/linux-gate.so.1"
+
+Ensuite il suffit de deplacer le programme dans /tmp pour qu'il perde son suid.
+Ensuite il suffit de l'executer.

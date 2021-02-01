@@ -1,0 +1,1 @@
+il suffit de prendre le binaire /bin/getflag et de le decompiler a l'aide de cutter de recuperer le code source et de recompiler le programme a sa maniere
