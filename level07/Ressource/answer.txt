@@ -1,1 +1,4 @@
 il suffit de changer la variable LOGNAME dans l'environement
+LOGNAME="\`getflag\`"
+
+le level07 va appeler cette variable d'environnement

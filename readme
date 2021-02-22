@@ -1,0 +1,8 @@
+commande pouvant etre utile tous au long de ce project
+find / -name level** 2>/dev/null
+find / -group level** 2>/dev/null
+find / -name flag** 2>/dev/null
+find / -group flag** 2>/dev/null
+
+string
+nm

